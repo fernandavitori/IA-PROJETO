@@ -1,9 +1,9 @@
 :root {
-    --cor-fundo: #0099ffe1; /* Verde escuro */
-    --cor-principal: #6edc9d; /* Verde médio */
-    --cor-secundaria: #007da0; /* Verde brilhante */
-    --cor-destaque: #0f3f44; /* Verde claro */
-    --cor-texto: #03391e; /* Verde muito claro */
+    --cor-fundo: #62cefcc4; 
+    --cor-principal: #29b7a4; 
+    --cor-secundaria: #007da0;
+    --cor-destaque: #0f3f44; 
+    --cor-texto: #03391e; 
 }
 
 body {

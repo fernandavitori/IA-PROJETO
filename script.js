@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você descobre uma nova tecnologia que pode reduzir significativamente a emissão de poluentes. Qual é a sua primeira reação?",
+        enunciado: "Imagine que você descobre uma nova tecnologia capaz de reduzir drasticamente a emissão de poluentes. O que você faz primeiro?",
         alternativas: [
             {
-                texto: "É uma grande oportunidade para salvar o planeta! Devemos adotar imediatamente.",
-                afirmacao: "Você vê a tecnologia como uma solução crucial para a crise ambiental e deseja implementá-la o mais rápido possível."
+                texto: "Eu ficaria empolgado e começaria a trabalhar para implementar essa tecnologia o mais rápido possível!",
+                afirmacao: "Você vê a tecnologia como uma chance para melhorar o meio ambiente e quer usar isso como uma ferramenta."
             },
             {
-                texto: "Precisamos analisar os possíveis impactos e fazer testes antes de qualquer adoção em larga escala.",
-                afirmacao: "Você é cauteloso e acredita que é necessário um estudo detalhado para evitar consequências imprevistas."
+                texto: "Acho que precisamos ser cuidadosos. Primeiro, deveríamos fazer uma análise detalhada e testes para garantir que tudo esteja certo.",
+                afirmacao: "Você é cuidadoso e prefere garantir que a tecnologia seja segura e eficaz antes de implementá-la no dia a dia."
             }
         ]
     },
     {
-        enunciado: "Uma nova política global para a preservação dos oceanos está sendo debatida. Como você participa desse processo?",
+        enunciado: "Uma nova política global para proteger os oceanos está sendo discutida. Como você se envolve nessa discussão?",
         alternativas: [
             {
-                texto: "Organizo uma campanha para promover a política e envolver a comunidade local.",
-                afirmacao: "Você acredita na importância da conscientização pública e deseja mobilizar as pessoas para apoiar a política."
+                texto: "Organizo campanhas para divulgar e engajar a política na comunidade. Acredito que a conscientização é o começo!",
+                afirmacao: "Você valoriza a mobilização comunitária e acha que é essencial que o público esteja de acordo para que a coisa funcione."
             },
             {
-                texto: "Concentro-me em desenvolver tecnologias inovadoras que possam ser usadas para proteger os oceanos.",
-                afirmacao: "Você prefere focar em soluções tecnológicas para enfrentar os desafios ambientais de maneira prática."
+                texto: "Trabalho em soluções tecnológicas inovadoras para ajudar a proteger os oceanos de forma prática e eficaz.",
+                afirmacao: "Você acredita que a inovação tecnológica é a chave para resolver problemas ambientais e prefere focar em soluções concretas."
             }
         ]
     },
     {
-        enunciado: "Durante uma cúpula sobre mudanças climáticas, você é solicitado a apresentar soluções para mitigar os efeitos do aquecimento global. O que você faz?",
+        enunciado: "Durante uma reunião sobre mudanças climáticas, você é convidado a apresentar soluções para enfrentar o aquecimento global. O que você sugere?",
         alternativas: [
             {
-                texto: "Proponho a implementação de energias renováveis em larga escala e o desenvolvimento de políticas para reduzir a pegada de carbono.",
-                afirmacao: "Você se concentra em soluções amplas e sustentáveis para enfrentar as mudanças climáticas de forma eficaz."
+                texto: "Proponho a utilização de fontes e recursos renováveis para reduzir a emissão de carbono.",
+                afirmacao: "Você prefere uma abordagem ampla e sustentável para lidar com as mudanças climáticas e acredita em soluções de longo prazo."
             },
             {
-                texto: "Sugiro iniciativas locais e projetos comunitários que podem ser mais rapidamente implementados e adaptados às necessidades específicas.",
-                afirmacao: "Você acredita que mudanças eficazes podem começar em nível local e se expandir para ter um impacto global."
+                texto: "Sugiro começar com projetos locais e comunitários que possam ser rapidamente implementados e adaptados às necessidades específicas.",
+                afirmacao: "Você acredita que as mudanças começam em um nível menor, começando pela diferença na comunidade."
             }
         ]
     },
     {
-        enunciado: "Você precisa criar uma proposta de projeto para promover a sustentabilidade em sua cidade. Como você aborda a tarefa?",
+        enunciado: "Você está desenvolvendo um projeto para promover a sustentabilidade em sua cidade. Como você estrutura seu plano?",
         alternativas: [
             {
-                texto: "Desenvolvo um plano abrangente que inclui educação ambiental, incentivos para práticas sustentáveis e melhorias na infraestrutura.",
-                afirmacao: "Você acredita em uma abordagem integrada para promover a sustentabilidade e alcançar resultados duradouros."
+                texto: "Crio um plano detalhado que inclui educação ambiental, incentivos para práticas sustentáveis e melhorias na infraestrutura.",
+                afirmacao: "Você acredita que uma abordagem completa e integrada é a melhor maneira de promover a sustentabilidade e alcançar resultados duradouros."
             },
             {
-                texto: "Concentro-me em uma solução inovadora, como uma nova tecnologia verde, que pode ser um modelo para outras cidades.",
-                afirmacao: "Você prefere focar em uma inovação que pode se destacar e inspirar outras cidades a adotar práticas semelhantes."
+                texto: "Desenvolvo uma solução inovadora, como uma nova tecnologia verde, que pode servir de exemplo para outras cidades.",
+                afirmacao: "Você prefere se concentrar em inovações que podem se destacar e inspirar outras cidades a seguir o mesmo caminho."
             }
         ]
     },
     {
-        enunciado: "Seu governo está considerando cortar o orçamento para programas ambientais. Qual é a sua reação?",
+        enunciado: "Seu governo está considerando cortar o orçamento para programas ambientais. Como você reage a isso?",
         alternativas: [
             {
-                texto: "Faço lobby para que o orçamento seja mantido ou aumentado, destacando a importância desses programas para a saúde do planeta.",
-                afirmacao: "Você está comprometido em garantir que os esforços para proteger o meio ambiente não sejam prejudicados por cortes orçamentários."
+                texto: "Faço pressão para que o orçamento seja mantido ou até aumentado, ressaltando a importância desses programas para a saúde do nosso planeta.",
+                afirmacao: "Você está comprometido em proteger os programas ambientais e lutar para que eles recebam o apoio financeiro necessário."
             },
             {
-                texto: "Proponho alternativas de financiamento, como parcerias com empresas privadas e campanhas de arrecadação de fundos.",
-                afirmacao: "Você busca soluções alternativas para garantir a continuidade dos programas ambientais sem depender exclusivamente do orçamento governamental."
+                texto: "Sugiro alternativas de financiamento, como parcerias com empresas privadas e campanhas de arrecadação de fundos para manter os programas.",
+                afirmacao: "Você procura soluções alternativas para garantir a continuidade dos programas ambientais, buscando fontes de financiamento fora do orçamento governamental."
             }
         ]
     },
@@ -83,22 +83,25 @@ function mostraPergunta() {
     }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
+    limpaAlternativas(); // Limpa alternativas anteriores
     mostraAlternativas();
 }
 
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas) {
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
-        caixaAlternativas.appendChild(botaoAlternativas);
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = alternativa.texto;
+        botaoAlternativa.addEventListener("click", () => respostaSelecionada(alternativa));
+        caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
 
+function limpaAlternativas() {
+    caixaAlternativas.innerHTML = "";
+}
+
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacoes + " ";
+    historiaFinal += opcaoSelecionada.afirmacao + " ";
     atual++;
     mostraPergunta();
 }
@@ -106,7 +109,7 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = "O futuro do planeta está agora nas suas mãos...";
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    limpaAlternativas();
 }
 
 mostraPergunta();
