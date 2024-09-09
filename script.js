@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Acho que precisamos ser cuidadosos. Primeiro, deveríamos fazer uma análise detalhada e testes para garantir que tudo esteja certo.",
-                afirmacao: "Você é cuidadoso e prefere garantir que a tecnologia seja segura e eficaz antes de implementá-la no dia a dia."
+                afirmacao: "É cuidadoso e prefere garantir que a tecnologia seja segura e eficaz antes de implementá-la no dia a dia."
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Organizo campanhas para divulgar e engajar a política na comunidade. Acredito que a conscientização é o começo!",
-                afirmacao: "Você valoriza a mobilização comunitária e acha que é essencial que o público esteja de acordo para que a coisa funcione."
+                afirmacao: "Valoriza a mobilização comunitária e acha que é essencial que o público esteja de acordo para que a coisa funcione."
             },
             {
                 texto: "Trabalho em soluções tecnológicas inovadoras para ajudar a proteger os oceanos de forma prática e eficaz.",
-                afirmacao: "Você acredita que a inovação tecnológica é a chave para resolver problemas ambientais e prefere focar em soluções concretas."
+                afirmacao: "Acreditando que a inovação tecnológica é a chave para resolver problemas ambientais e prefere focar em soluções concretas."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Proponho a utilização de fontes e recursos renováveis para reduzir a emissão de carbono.",
-                afirmacao: "Você prefere uma abordagem ampla e sustentável para lidar com as mudanças climáticas e acredita em soluções de longo prazo."
+                afirmacao: "Prefererindo uma abordagem ampla e sustentável para lidar com as mudanças climáticas e acredita em soluções de longo prazo."
             },
             {
                 texto: "Sugiro começar com projetos locais e comunitários que possam ser rapidamente implementados e adaptados às necessidades específicas.",
-                afirmacao: "Você acredita que as mudanças começam em um nível menor, começando pela diferença na comunidade."
+                afirmacao: "Acreditando que as mudanças começam em um nível menor, começando pela diferença na comunidade."
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Crio um plano detalhado que inclui educação ambiental, incentivos para práticas sustentáveis e melhorias na infraestrutura.",
-                afirmacao: "Você acredita que uma abordagem completa e integrada é a melhor maneira de promover a sustentabilidade e alcançar resultados duradouros."
+                afirmacao: "Você acredita que uma abordagem completa e integrada é a melhor maneira de promover a sustentabilidade e alcançar resultados duradouros,"
             },
             {
                 texto: "Desenvolvo uma solução inovadora, como uma nova tecnologia verde, que pode servir de exemplo para outras cidades.",
-                afirmacao: "Você prefere se concentrar em inovações que podem se destacar e inspirar outras cidades a seguir o mesmo caminho."
+                afirmacao: "Você prefere se concentrar em inovações que podem se destacar e inspirar outras cidades a seguir o mesmo caminho,"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Faço pressão para que o orçamento seja mantido ou até aumentado, ressaltando a importância desses programas para a saúde do nosso planeta.",
-                afirmacao: "Você está comprometido em proteger os programas ambientais e lutar para que eles recebam o apoio financeiro necessário."
+                afirmacao: "E está comprometido em proteger os programas ambientais e lutar para que eles recebam o apoio financeiro necessário."
             },
             {
                 texto: "Sugiro alternativas de financiamento, como parcerias com empresas privadas e campanhas de arrecadação de fundos para manter os programas.",
-                afirmacao: "Você procura soluções alternativas para garantir a continuidade dos programas ambientais, buscando fontes de financiamento fora do orçamento governamental."
+                afirmacao: "E procura soluções alternativas para garantir a continuidade dos programas ambientais, buscando fontes de financiamento fora do orçamento governamental."
             }
         ]
     },
